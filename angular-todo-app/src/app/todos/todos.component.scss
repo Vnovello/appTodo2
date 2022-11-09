@@ -1,0 +1,36 @@
+.heading-section{
+    background: linear-gradient(to right,rgb(0, 31, 0), rgb(5, 43, 2));
+
+    padding: 100px;
+    padding-bottom: 150px;
+
+    h1.title{
+        font-weight: bold;
+        color:rgb(237, 194, 128);
+        text-shadow: 0px ,1px,2px rgb(black,0.12);
+
+
+    }
+}
+
+.container{
+    max-width: 800px;
+}
+
+.add-todo-box-container{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.add-todo-box{
+    padding: 25px;
+    background: rgb(148, 196, 123);
+  
+    border-radius: 4px ;
+    margin-top: -68px;
+
+    box-shadow: 0 4px 12 px rbba (black , 0.08);
+   
+
+}
